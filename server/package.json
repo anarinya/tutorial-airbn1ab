@@ -1,0 +1,46 @@
+{
+  "name": "airbn1ab-server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "build": "tsc --project ./",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "ts-node temp/seed.ts",
+    "clear": "ts-node temp/clear.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^1.1.0",
+    "apollo-server-express": "^2.11.0",
+    "cloudinary": "^1.21.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "googleapis": "^48.0.0",
+    "graphql": "^14.6.0",
+    "lodash.merge": "^4.6.2",
+    "mongodb": "^3.5.5",
+    "stripe": "^8.39.2"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.0",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.3",
+    "@types/google__maps": "^0.5.12",
+    "@types/lodash.merge": "^4.6.6",
+    "@types/mongodb": "^3.5.4",
+    "@types/node": "^12.12.31",
+    "@types/stripe": "^7.13.22",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^5.14.1",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
+  }
+}
